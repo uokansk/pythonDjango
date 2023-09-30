@@ -1,21 +1,17 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from django.views.generic import TemplateView
+from django.template import loader
 
 
-class IndexView(TemplateView):
-    template_name = 'main_app/index.html'
-
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        context['title'] = 'Главная'
-        return context
+def index(request):
+    template = loader.get_template('index.html')
+    context = {}
+    rendered_page = template.render(context, request)
+    return HttpResponse(rendered_page)
 
 
-class AboutView(TemplateView):
-    template_name = 'main_app/about.html'
-
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        context['title'] = 'О себе'
-        return context
+def about(request):
+    template = loader.get_template('about.html')
+    context = {}
+    rendered_page = template.render(context, request)
+    return HttpResponse(rendered_page)
