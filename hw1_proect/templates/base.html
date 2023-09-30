@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>
+        {% block title %}
+            Мой сайт
+        {% endblock %}
+    </title>
+</head>
+<body>
+<header>
+    <ul>
+        <li><a href="{% url 'index' %}">Главная</a></li>
+        <li><a href="{% url 'about' %}">О себе</a></li>
+    </ul>
+</header>
+<main>
+    {% block content %}
+        Содержимое сайта
+    {% endblock %}
+</main>
+<footer>
+    <p><em>© Copyright 2023</em></p>
+</footer>
+</body>
+</html>
