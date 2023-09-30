@@ -1,0 +1,26 @@
+INFO 2023-09-29 19:36:15,186 autoreload 17660 6808 Watching for file changes with StatReloader
+INFO 2023-09-29 19:36:17,445 basehttp 17660 6272 "GET /number/ HTTP/1.1" 200 22
+INFO 2023-09-29 19:36:18,013 basehttp 17660 6272 "GET /number/ HTTP/1.1" 200 22
+INFO 2023-09-29 19:36:18,417 basehttp 17660 6272 "GET /number/ HTTP/1.1" 200 22
+INFO 2023-09-29 19:36:18,699 basehttp 17660 6272 "GET /number/ HTTP/1.1" 200 22
+INFO 2023-09-29 19:36:18,938 basehttp 17660 6272 "GET /number/ HTTP/1.1" 200 22
+INFO 2023-09-29 19:40:52,776 autoreload 17660 6808 C:\Users\kapa-\PycharmProjects\pythonDjango\django_S_1\task5\views.py changed, reloading.
+INFO 2023-09-29 19:40:54,160 autoreload 18228 7888 Watching for file changes with StatReloader
+INFO 2023-09-29 19:41:07,190 basehttp 18228 12000 "GET /number/ HTTP/1.1" 200 22
+INFO 2023-09-29 19:41:16,412 basehttp 18228 7396 "GET /cube/ HTTP/1.1" 200 21
+INFO 2023-09-29 19:45:41,504 autoreload 18228 7888 C:\Users\kapa-\PycharmProjects\pythonDjango\django_S_1\django_S_1\settings.py changed, reloading.
+INFO 2023-09-29 19:45:42,769 autoreload 8916 8404 Watching for file changes with StatReloader
+INFO 2023-09-29 19:52:27,057 views 8916 17984 cube page started
+INFO 2023-09-29 19:52:27,060 basehttp 8916 17984 "GET /cube/ HTTP/1.1" 200 21
+INFO 2023-09-29 19:52:37,316 views 8916 19824 number page started
+INFO 2023-09-29 19:52:37,319 basehttp 8916 19824 "GET /number/ HTTP/1.1" 200 22
+WARNING 2023-09-29 19:52:48,940 log 8916 8948 Not Found: /header/
+WARNING 2023-09-29 19:52:48,941 basehttp 8916 8948 "GET /header/ HTTP/1.1" 404 2597
+WARNING 2023-09-29 19:52:54,933 log 8916 8948 Not Found: /haeder/
+WARNING 2023-09-29 19:52:54,934 basehttp 8916 8948 "GET /haeder/ HTTP/1.1" 404 2597
+WARNING 2023-09-29 19:53:42,607 log 8916 17972 Not Found: /heads/
+WARNING 2023-09-29 19:53:42,609 basehttp 8916 17972 "GET /heads/ HTTP/1.1" 404 2594
+WARNING 2023-09-29 19:53:48,453 log 8916 12856 Not Found: /heads
+WARNING 2023-09-29 19:53:48,454 basehttp 8916 12856 "GET /heads HTTP/1.1" 404 2591
+INFO 2023-09-29 19:53:57,570 views 8916 11232 heads page started
+INFO 2023-09-29 19:53:57,572 basehttp 8916 11232 "GET / HTTP/1.1" 200 28
