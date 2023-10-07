@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    {{ block.super }} - {{ product.name }}
+{% endblock %}
+
+{% block content %}
+    <h1>{{ product.name }}</h1>
+    {% if product.image %}
+        <img src="{{ product.image.url }}" alt="{{ product.name }}" height="200">
+    {% endif %}
+    <p>{{ product.description }}</p>
+    <p><em>Количество: {{ product.quantity }}</em></p>
+    <p><em>Цена: {{ product.price }}</em></p>
+
+    <p><a href="edit/">Редактировать товар</a></p>
+
+{% endblock %}

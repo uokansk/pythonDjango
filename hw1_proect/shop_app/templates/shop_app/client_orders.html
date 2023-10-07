@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    {{ block.super }} - Клиент №{{ client.pk }}
+{% endblock %}
+
+{% block content %}
+    <h1>Клиент {{ client.name }}</h1>
+    <p>
+        Email: {{ client.email }}<br>
+        Телефон: {{ client.phone }}<br>
+        Адрес: {{ client.address }}<br>
+        Дата регистрации: {{ client.registered_at }}
+    </p>
+
+    <h3>Заказы клиента:</h3>
+    <table>
+            <tr>
+                <th colspan="2">Номер заказа</th>
+                <th>Дата заказа</th>
+                <th>Сумма заказа</th>
+            </tr>
+        {% for order in orders %}
+            <tr>
+                <td>{{ order.id }}</td>
+                <td><a href="{% url 'order_by_id' order.id %}">подробнее</a></td>
+                <td>{{ order.created_at }}</td>
+                <td>{{ order.total_amount }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+
+    <a href="{% url 'client_products' client.id 7 %}">Заказанные клиентом товары</a>
+
+{% endblock %}

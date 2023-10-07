@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    {{ block.super }} - Заказ №{{ order.pk }}
+{% endblock %}
+
+{% block content %}
+    <h1>Заказ №{{ order.pk }}</h1>
+    <p>
+        Клиент: <a href="{% url 'client_orders' order.client.id %}">{{ order.client.name }}
+        - {{ order.client.email }}</a><br>
+        Создан: {{ order.created_at }}<br>
+    </p>
+
+    <h3>Список товаров:</h3>
+    <table>
+        <tr>
+            <th>Наименование</th>
+            <th>Цена</th>
+        </tr>
+        {% for product in products %}
+            <tr>
+                <td><a href="{% url 'product_by_id' product.id %}">{{ product.name }}</a></td>
+                <td>{{ product.price }}</td>
+            </tr>
+        {% endfor %}
+        <tr>
+            <th>Итого:</th>
+            <th>{{ order.total_amount }}</th>
+        </tr>
+    </table>
+
+{% endblock %}

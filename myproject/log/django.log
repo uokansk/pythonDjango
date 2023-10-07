@@ -36,3 +36,775 @@ INFO 2023-09-28 21:38:56,637 basehttp 5212 7016 "GET /prefix/ HTTP/1.1" 200 13
 INFO 2023-10-01 16:16:10,473 autoreload 20328 11324 Watching for file changes with StatReloader
 INFO 2023-10-01 16:21:47,226 autoreload 9900 10632 Watching for file changes with StatReloader
 INFO 2023-10-01 16:25:39,319 autoreload 4044 11412 Watching for file changes with StatReloader
+INFO 2023-10-06 19:59:15,408 autoreload 16352 15208 Watching for file changes with StatReloader
+INFO 2023-10-06 19:59:54,748 autoreload 14532 2024 Watching for file changes with StatReloader
+WARNING 2023-10-06 20:01:58,701 log 14532 17368 Not Found: /
+WARNING 2023-10-06 20:01:58,703 basehttp 14532 17368 "GET / HTTP/1.1" 404 2169
+WARNING 2023-10-06 20:01:59,504 log 14532 17368 Not Found: /favicon.ico
+WARNING 2023-10-06 20:01:59,506 basehttp 14532 17368 "GET /favicon.ico HTTP/1.1" 404 2220
+WARNING 2023-10-06 20:06:05,189 log 14532 17368 Not Found: /les3
+WARNING 2023-10-06 20:06:05,190 basehttp 14532 17368 "GET /les3 HTTP/1.1" 404 2199
+INFO 2023-10-06 20:08:51,158 autoreload 14532 2024 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp\urls.py changed, reloading.
+INFO 2023-10-06 20:08:52,277 autoreload 10536 9192 Watching for file changes with StatReloader
+INFO 2023-10-06 20:08:58,182 autoreload 3148 17732 Watching for file changes with StatReloader
+WARNING 2023-10-06 20:09:18,137 log 3148 20256 Not Found: /
+WARNING 2023-10-06 20:09:18,138 basehttp 3148 20256 "GET / HTTP/1.1" 404 2169
+WARNING 2023-10-06 20:09:20,531 log 3148 20256 Not Found: /
+WARNING 2023-10-06 20:09:20,532 basehttp 3148 20256 "GET / HTTP/1.1" 404 2169
+WARNING 2023-10-06 20:09:21,580 log 3148 20256 Not Found: /
+WARNING 2023-10-06 20:09:21,581 basehttp 3148 20256 "GET / HTTP/1.1" 404 2169
+WARNING 2023-10-06 20:10:06,514 log 3148 20256 Not Found: /les3/
+WARNING 2023-10-06 20:10:06,516 basehttp 3148 20256 "GET /les3/ HTTP/1.1" 404 2202
+WARNING 2023-10-06 20:10:12,564 log 3148 20256 Not Found: /les3
+WARNING 2023-10-06 20:10:12,566 basehttp 3148 20256 "GET /les3 HTTP/1.1" 404 2199
+INFO 2023-10-06 20:11:08,597 autoreload 3148 17732 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-10-06 20:11:09,815 autoreload 13888 5036 Watching for file changes with StatReloader
+INFO 2023-10-06 20:11:18,393 autoreload 13888 5036 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-10-06 20:11:19,447 autoreload 19556 15408 Watching for file changes with StatReloader
+WARNING 2023-10-06 20:11:31,188 log 19556 18268 Not Found: /les3
+WARNING 2023-10-06 20:11:31,190 basehttp 19556 18268 "GET /les3 HTTP/1.1" 404 2199
+WARNING 2023-10-06 20:11:37,768 log 19556 18268 Not Found: /
+WARNING 2023-10-06 20:11:37,770 basehttp 19556 18268 "GET / HTTP/1.1" 404 2169
+INFO 2023-10-06 20:12:48,373 autoreload 19556 15408 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myproject\urls.py changed, reloading.
+INFO 2023-10-06 20:12:49,339 autoreload 17028 9400 Watching for file changes with StatReloader
+WARNING 2023-10-06 20:12:53,281 log 17028 20528 Not Found: /
+WARNING 2023-10-06 20:12:53,282 basehttp 17028 20528 "GET / HTTP/1.1" 404 2274
+WARNING 2023-10-06 20:13:02,005 log 17028 20528 Not Found: /les3
+WARNING 2023-10-06 20:13:02,007 basehttp 17028 20528 "GET /les3 HTTP/1.1" 404 2304
+WARNING 2023-10-06 20:13:07,712 log 17028 20528 Not Found: /les3/
+WARNING 2023-10-06 20:13:07,713 basehttp 17028 20528 "GET /les3/ HTTP/1.1" 404 2548
+INFO 2023-10-06 20:13:41,683 basehttp 17028 20528 "GET /les3/hello/ HTTP/1.1" 200 26
+INFO 2023-10-06 20:13:49,652 basehttp 17028 20528 "GET /les3/hello2/ HTTP/1.1" 200 23
+INFO 2023-10-06 20:20:39,848 autoreload 17028 9400 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-10-06 20:20:41,547 autoreload 16104 16940 Watching for file changes with StatReloader
+INFO 2023-10-06 20:22:07,559 autoreload 16104 16940 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-10-06 20:22:08,700 autoreload 20176 11136 Watching for file changes with StatReloader
+INFO 2023-10-06 20:27:48,304 autoreload 20176 11136 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-06 20:27:49,889 autoreload 8476 10812 Watching for file changes with StatReloader
+INFO 2023-10-06 20:28:48,657 autoreload 8476 10812 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-06 20:28:49,772 autoreload 4508 18980 Watching for file changes with StatReloader
+INFO 2023-10-06 20:29:45,430 autoreload 4508 18980 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-06 20:29:46,431 autoreload 19160 19264 Watching for file changes with StatReloader
+INFO 2023-10-06 20:30:29,184 autoreload 19160 19264 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-06 20:30:30,416 autoreload 13256 14368 Watching for file changes with StatReloader
+INFO 2023-10-06 20:32:39,017 autoreload 13256 14368 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-06 20:32:40,014 autoreload 13268 10548 Watching for file changes with StatReloader
+INFO 2023-10-06 20:33:38,530 autoreload 13268 10548 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-06 20:33:39,676 autoreload 7544 14292 Watching for file changes with StatReloader
+INFO 2023-10-06 20:35:17,790 autoreload 7544 14292 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-06 20:35:18,803 autoreload 17536 19864 Watching for file changes with StatReloader
+WARNING 2023-10-06 20:35:25,578 log 17536 13904 Not Found: /les3/posts/
+WARNING 2023-10-06 20:35:25,581 basehttp 17536 13904 "GET /les3/posts/ HTTP/1.1" 404 3202
+INFO 2023-10-06 20:35:35,522 basehttp 17536 13904 "GET /les3/posts/2022 HTTP/1.1" 301 0
+INFO 2023-10-06 20:35:35,535 basehttp 17536 21132 "GET /les3/posts/2022/ HTTP/1.1" 200 19
+INFO 2023-10-06 20:35:44,812 basehttp 17536 21132 "GET /les3/posts/2022/6 HTTP/1.1" 301 0
+INFO 2023-10-06 20:35:44,824 basehttp 17536 3376 "GET /les3/posts/2022/6/ HTTP/1.1" 200 28
+INFO 2023-10-06 20:36:28,145 autoreload 17536 19864 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-06 20:36:29,203 autoreload 19172 4740 Watching for file changes with StatReloader
+INFO 2023-10-06 20:36:32,404 basehttp 19172 18812 "GET /les3/posts/2022/6/ HTTP/1.1" 200 24
+INFO 2023-10-06 20:37:03,722 autoreload 19172 4740 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-06 20:37:04,735 autoreload 11024 15644 Watching for file changes with StatReloader
+INFO 2023-10-06 20:37:07,464 basehttp 11024 15288 "GET /les3/posts/2022/6/ HTTP/1.1" 200 34
+INFO 2023-10-06 20:38:26,139 autoreload 11024 15644 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-06 20:38:27,440 autoreload 10560 18404 Watching for file changes with StatReloader
+INFO 2023-10-06 20:51:23,845 basehttp 10560 11872 "GET /les3/posts/2022/6/pp/ HTTP/1.1" 200 356
+INFO 2023-10-06 21:04:50,433 autoreload 10560 18404 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-06 21:04:51,662 autoreload 14084 14484 Watching for file changes with StatReloader
+INFO 2023-10-06 21:05:14,975 autoreload 14084 14484 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-06 21:05:16,013 autoreload 19324 20788 Watching for file changes with StatReloader
+INFO 2023-10-06 21:05:30,451 autoreload 19324 20788 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-06 21:05:31,657 autoreload 940 2484 Watching for file changes with StatReloader
+INFO 2023-10-06 21:07:17,027 autoreload 940 2484 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp\urls.py changed, reloading.
+INFO 2023-10-06 21:07:18,478 autoreload 20172 10644 Watching for file changes with StatReloader
+INFO 2023-10-06 21:07:44,438 autoreload 20172 10644 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myproject\urls.py changed, reloading.
+INFO 2023-10-06 21:07:45,496 autoreload 3984 20880 Watching for file changes with StatReloader
+INFO 2023-10-06 21:07:56,426 autoreload 3984 20880 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-10-06 21:07:57,702 autoreload 12428 6760 Watching for file changes with StatReloader
+INFO 2023-10-06 21:08:11,508 autoreload 12428 6760 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-10-06 21:08:12,580 autoreload 21500 12984 Watching for file changes with StatReloader
+INFO 2023-10-06 21:08:51,889 autoreload 21500 12984 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-10-06 21:08:53,121 autoreload 5496 964 Watching for file changes with StatReloader
+INFO 2023-10-06 21:08:56,167 basehttp 5496 16612 "GET /les3 HTTP/1.1" 301 0
+INFO 2023-10-06 21:08:56,244 basehttp 5496 8060 "GET /les3/ HTTP/1.1" 200 175
+INFO 2023-10-06 21:16:25,305 autoreload 5496 964 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-06 21:16:26,220 autoreload 12240 10524 Watching for file changes with StatReloader
+INFO 2023-10-06 21:17:22,751 autoreload 12240 10524 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-06 21:17:23,845 autoreload 13744 14148 Watching for file changes with StatReloader
+INFO 2023-10-06 21:20:09,030 autoreload 13744 14148 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-10-06 21:20:10,126 autoreload 20484 10124 Watching for file changes with StatReloader
+INFO 2023-10-06 21:20:22,222 autoreload 20484 10124 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-10-06 21:20:23,460 autoreload 21312 18976 Watching for file changes with StatReloader
+INFO 2023-10-06 21:21:02,608 basehttp 21312 13920 "GET /les3/if HTTP/1.1" 301 0
+INFO 2023-10-06 21:21:02,696 basehttp 21312 18528 "GET /les3/if/ HTTP/1.1" 200 355
+INFO 2023-10-06 21:26:45,705 autoreload 21312 18976 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-06 21:26:47,044 autoreload 8716 20964 Watching for file changes with StatReloader
+INFO 2023-10-06 21:27:21,250 autoreload 8716 20964 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-06 21:27:22,350 autoreload 7688 19560 Watching for file changes with StatReloader
+INFO 2023-10-06 21:27:57,399 autoreload 7688 19560 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-10-06 21:27:58,444 autoreload 2700 10824 Watching for file changes with StatReloader
+INFO 2023-10-06 21:28:15,329 autoreload 2700 10824 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-10-06 21:28:16,499 autoreload 21076 2052 Watching for file changes with StatReloader
+INFO 2023-10-06 21:29:03,672 autoreload 21076 2052 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-10-06 21:29:04,719 autoreload 11560 12652 Watching for file changes with StatReloader
+INFO 2023-10-06 21:29:34,401 autoreload 11560 12652 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-10-06 21:29:36,062 autoreload 20896 9220 Watching for file changes with StatReloader
+INFO 2023-10-06 21:29:45,510 basehttp 20896 18292 "GET /les3/for/ HTTP/1.1" 200 957
+INFO 2023-10-06 21:55:19,474 autoreload 20896 9220 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-06 21:55:20,599 autoreload 7828 2312 Watching for file changes with StatReloader
+INFO 2023-10-06 21:58:38,032 autoreload 7828 2312 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-06 21:58:39,291 autoreload 12000 14628 Watching for file changes with StatReloader
+INFO 2023-10-06 21:59:32,402 autoreload 12000 14628 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-10-06 21:59:33,494 autoreload 14952 5064 Watching for file changes with StatReloader
+INFO 2023-10-06 22:00:25,559 autoreload 14952 5064 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-10-06 22:00:26,614 autoreload 6424 18952 Watching for file changes with StatReloader
+INFO 2023-10-06 22:00:49,491 basehttp 6424 3108 "GET /les3/index HTTP/1.1" 301 0
+ERROR 2023-10-06 22:00:50,270 log 6424 20400 Internal Server Error: /les3/index/
+Traceback (most recent call last):
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\views.py", line 73, in index
+    return render(request, "myapp/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/index.html
+ERROR 2023-10-06 22:00:50,278 basehttp 6424 20400 "GET /les3/index/ HTTP/1.1" 500 81448
+INFO 2023-10-06 22:01:38,890 autoreload 6424 18952 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-06 22:01:39,890 autoreload 18184 20124 Watching for file changes with StatReloader
+INFO 2023-10-06 22:01:43,257 basehttp 18184 21040 "GET /les3/index/ HTTP/1.1" 200 240
+INFO 2023-10-06 22:01:52,944 basehttp 18184 21040 "GET /les3/about/ HTTP/1.1" 200 246
+INFO 2023-10-06 22:04:20,336 autoreload 18184 20124 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myproject\settings.py changed, reloading.
+INFO 2023-10-06 22:04:21,859 autoreload 15696 2312 Watching for file changes with StatReloader
+INFO 2023-10-06 22:12:23,007 basehttp 15696 2052 "GET /les3/index/ HTTP/1.1" 200 240
+WARNING 2023-10-06 22:12:37,136 log 15696 2052 Not Found: /les3/indexx/
+WARNING 2023-10-06 22:12:37,137 basehttp 15696 2052 "GET /les3/indexx/ HTTP/1.1" 404 4061
+INFO 2023-10-06 22:13:59,855 autoreload 15696 2312 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-10-06 22:14:00,983 autoreload 11344 19048 Watching for file changes with StatReloader
+ERROR 2023-10-06 22:14:02,875 log 11344 21444 Internal Server Error: /les3/indexx/
+Traceback (most recent call last):
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\views.py", line 77, in indexx
+    return render(request, "myapp3/indexx.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2023-10-06 22:14:02,925 basehttp 11344 21444 "GET /les3/indexx/ HTTP/1.1" 500 131241
+INFO 2023-10-06 22:15:33,829 autoreload 11344 19048 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-10-06 22:15:35,307 autoreload 11304 20108 Watching for file changes with StatReloader
+ERROR 2023-10-06 22:15:38,407 log 11304 15008 Internal Server Error: /les3/index/
+Traceback (most recent call last):
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\views.py", line 73, in index
+    return render(request, "myapp3/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2023-10-06 22:15:38,420 basehttp 11304 15008 "GET /les3/index/ HTTP/1.1" 500 131450
+ERROR 2023-10-06 22:15:59,661 log 11304 15008 Internal Server Error: /les3/index/
+Traceback (most recent call last):
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\views.py", line 73, in index
+    return render(request, "myapp3/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2023-10-06 22:15:59,685 basehttp 11304 15008 "GET /les3/index/ HTTP/1.1" 500 131587
+INFO 2023-10-06 22:16:06,741 basehttp 11304 15008 "GET /les3/about/ HTTP/1.1" 200 246
+INFO 2023-10-06 22:18:26,641 autoreload 11304 20108 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-10-06 22:18:27,720 autoreload 20864 14236 Watching for file changes with StatReloader
+INFO 2023-10-06 22:20:26,924 autoreload 20864 14236 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-06 22:20:28,037 autoreload 16864 20088 Watching for file changes with StatReloader
+ERROR 2023-10-06 22:20:33,654 log 16864 11452 Internal Server Error: /les3/index/
+Traceback (most recent call last):
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\views.py", line 73, in index
+    return render(request, "myapp/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/index.html
+ERROR 2023-10-06 22:20:33,659 basehttp 16864 11452 "GET /les3/index/ HTTP/1.1" 500 82043
+INFO 2023-10-06 22:21:01,244 autoreload 16864 20088 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-06 22:21:02,343 autoreload 4740 10536 Watching for file changes with StatReloader
+ERROR 2023-10-06 22:21:14,623 log 4740 6196 Internal Server Error: /les3/index/
+Traceback (most recent call last):
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\views.py", line 73, in index
+    return render(request, "myapp3/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2023-10-06 22:21:14,634 basehttp 4740 6196 "GET /les3/index/ HTTP/1.1" 500 131349
+ERROR 2023-10-06 22:21:17,590 log 4740 6196 Internal Server Error: /les3/index/
+Traceback (most recent call last):
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\views.py", line 73, in index
+    return render(request, "myapp3/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2023-10-06 22:21:17,602 basehttp 4740 6196 "GET /les3/index/ HTTP/1.1" 500 131212
+ERROR 2023-10-06 22:24:33,344 log 4740 6196 Internal Server Error: /les3/index/
+Traceback (most recent call last):
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\views.py", line 73, in index
+    return render(request, "myapp3/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2023-10-06 22:24:33,352 basehttp 4740 6196 "GET /les3/index/ HTTP/1.1" 500 131349
+ERROR 2023-10-06 22:25:00,630 log 4740 6196 Internal Server Error: /les3/index/
+Traceback (most recent call last):
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\views.py", line 73, in index
+    return render(request, "myapp3/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2023-10-06 22:25:00,642 basehttp 4740 6196 "GET /les3/index/ HTTP/1.1" 500 131349
+ERROR 2023-10-06 22:25:04,895 log 4740 6196 Internal Server Error: /les3/index/
+Traceback (most recent call last):
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\views.py", line 73, in index
+    return render(request, "myapp3/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2023-10-06 22:25:04,906 basehttp 4740 6196 "GET /les3/index/ HTTP/1.1" 500 131349
+ERROR 2023-10-06 22:25:05,857 log 4740 6196 Internal Server Error: /les3/index/
+Traceback (most recent call last):
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\views.py", line 73, in index
+    return render(request, "myapp3/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2023-10-06 22:25:05,867 basehttp 4740 6196 "GET /les3/index/ HTTP/1.1" 500 131349
+ERROR 2023-10-06 22:25:06,270 log 4740 6196 Internal Server Error: /les3/index/
+Traceback (most recent call last):
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\views.py", line 73, in index
+    return render(request, "myapp3/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2023-10-06 22:25:06,279 basehttp 4740 6196 "GET /les3/index/ HTTP/1.1" 500 131349
+INFO 2023-10-06 22:25:55,223 autoreload 6512 13580 Watching for file changes with StatReloader
+INFO 2023-10-06 22:26:10,839 basehttp 6512 15752 "GET /les3/index/ HTTP/1.1" 200 299
+INFO 2023-10-06 22:27:08,123 autoreload 6512 13580 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myproject\urls.py changed, reloading.
+INFO 2023-10-06 22:27:09,356 autoreload 6640 20376 Watching for file changes with StatReloader
+INFO 2023-10-06 22:28:42,539 autoreload 6640 20376 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myproject\urls.py changed, reloading.
+INFO 2023-10-06 22:28:43,664 autoreload 14920 10460 Watching for file changes with StatReloader
+INFO 2023-10-06 22:37:05,203 basehttp 14920 10480 "GET / HTTP/1.1" 200 299
+INFO 2023-10-06 22:38:47,535 autoreload 14920 10460 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\models.py changed, reloading.
+INFO 2023-10-06 22:38:55,905 autoreload 8288 14412 Watching for file changes with StatReloader
+INFO 2023-10-06 22:39:13,717 autoreload 8288 14412 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\models.py changed, reloading.
+INFO 2023-10-06 22:39:14,944 autoreload 13680 332 Watching for file changes with StatReloader
+INFO 2023-10-06 22:41:14,552 autoreload 13680 332 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp3\models.py changed, reloading.
+INFO 2023-10-06 22:41:15,637 autoreload 21300 7780 Watching for file changes with StatReloader
+INFO 2023-10-06 23:17:39,475 autoreload 5052 15776 Watching for file changes with StatReloader
+INFO 2023-10-06 23:18:26,971 basehttp 5052 19196 "GET /les3/author/5/ HTTP/1.1" 200 1217
+INFO 2023-10-06 23:19:27,022 basehttp 5052 20924 "GET /les3/post/48/ HTTP/1.1" 200 728
+INFO 2023-10-06 23:19:32,774 basehttp 5052 20924 "GET /les3/post/47/ HTTP/1.1" 200 690
+INFO 2023-10-06 23:19:36,793 basehttp 5052 20924 "GET /les3/post/50/ HTTP/1.1" 200 706
