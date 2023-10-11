@@ -1,5 +1,6 @@
 from django import forms
 
+<<<<<<< HEAD
 from django import forms
 
 from seminar2.models import Product
@@ -51,3 +52,5 @@ class Form6(forms.Form):
 
 class ImageForm(forms.Form):
     image = forms.ImageField()
+=======
+>>>>>>> origin/master
