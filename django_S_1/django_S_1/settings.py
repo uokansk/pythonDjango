@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     's1app',
     'task5',
     's2app',
+    's4app',
 ]
 
 MIDDLEWARE = [
@@ -122,7 +123,6 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
 
 LOGGING = {
     'version': 1,

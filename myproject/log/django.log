@@ -808,3 +808,85 @@ INFO 2023-10-06 23:18:26,971 basehttp 5052 19196 "GET /les3/author/5/ HTTP/1.1" 
 INFO 2023-10-06 23:19:27,022 basehttp 5052 20924 "GET /les3/post/48/ HTTP/1.1" 200 728
 INFO 2023-10-06 23:19:32,774 basehttp 5052 20924 "GET /les3/post/47/ HTTP/1.1" 200 690
 INFO 2023-10-06 23:19:36,793 basehttp 5052 20924 "GET /les3/post/50/ HTTP/1.1" 200 706
+INFO 2023-10-09 18:39:14,009 autoreload 21004 18388 Watching for file changes with StatReloader
+WARNING 2023-10-09 18:39:58,128 log 21004 16088 Not Found: /les4/myapp4/user_form
+WARNING 2023-10-09 18:39:58,130 basehttp 21004 16088 "GET /les4/myapp4/user_form HTTP/1.1" 404 2634
+WARNING 2023-10-09 18:39:58,919 log 21004 16088 Not Found: /favicon.ico
+WARNING 2023-10-09 18:39:58,920 basehttp 21004 16088 "GET /favicon.ico HTTP/1.1" 404 2530
+INFO 2023-10-09 18:40:15,644 basehttp 21004 16088 "GET /les4/user/add/ HTTP/1.1" 200 954
+INFO 2023-10-09 19:06:28,846 autoreload 21004 18388 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-10-09 19:06:38,087 autoreload 20264 1728 Watching for file changes with StatReloader
+INFO 2023-10-09 19:07:17,867 autoreload 20264 1728 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-10-09 19:07:19,132 autoreload 13160 1536 Watching for file changes with StatReloader
+INFO 2023-10-09 19:07:46,470 autoreload 13160 1536 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-10-09 19:07:47,600 autoreload 10288 8460 Watching for file changes with StatReloader
+INFO 2023-10-09 19:08:12,321 basehttp 10288 9320 "GET / HTTP/1.1" 200 299
+INFO 2023-10-09 19:08:24,979 basehttp 10288 9320 "GET /les4/user/add/ HTTP/1.1" 200 954
+INFO 2023-10-09 19:11:00,733 autoreload 10288 8460 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp4\views.py changed, reloading.
+INFO 2023-10-09 19:11:02,708 autoreload 18288 8808 Watching for file changes with StatReloader
+INFO 2023-10-09 19:12:13,264 autoreload 18288 8808 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp4\views.py changed, reloading.
+INFO 2023-10-09 19:12:14,642 autoreload 15512 5980 Watching for file changes with StatReloader
+INFO 2023-10-09 19:15:11,463 autoreload 15512 5980 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp4\urls.py changed, reloading.
+INFO 2023-10-09 19:15:12,561 autoreload 15236 19100 Watching for file changes with StatReloader
+WARNING 2023-10-09 19:17:59,149 log 15236 19296 Not Found: /les4/user/forms
+WARNING 2023-10-09 19:17:59,150 basehttp 15236 19296 "GET /les4/user/forms HTTP/1.1" 404 2799
+INFO 2023-10-09 19:18:32,034 basehttp 15236 19296 "GET /les4/forms/ HTTP/1.1" 200 1497
+INFO 2023-10-09 19:19:50,710 basehttp 15236 14556 "POST /les4/forms/ HTTP/1.1" 200 1570
+INFO 2023-10-09 19:20:07,627 basehttp 15236 14556 "POST /les4/forms/ HTTP/1.1" 200 1570
+INFO 2023-10-09 19:21:02,690 basehttp 15236 16732 "POST /les4/forms/ HTTP/1.1" 200 1570
+INFO 2023-10-09 19:21:12,194 basehttp 15236 3384 "POST /les4/forms/ HTTP/1.1" 200 1570
+INFO 2023-10-09 19:21:13,721 basehttp 15236 3384 "POST /les4/forms/ HTTP/1.1" 200 1570
+INFO 2023-10-09 19:21:14,206 basehttp 15236 3384 "POST /les4/forms/ HTTP/1.1" 200 1570
+INFO 2023-10-09 19:21:14,599 basehttp 15236 3384 "POST /les4/forms/ HTTP/1.1" 200 1570
+INFO 2023-10-09 19:21:33,099 basehttp 15236 3384 "POST /les4/forms/ HTTP/1.1" 200 1571
+INFO 2023-10-09 19:21:42,527 basehttp 15236 3384 "POST /les4/forms/ HTTP/1.1" 200 1571
+INFO 2023-10-09 19:22:54,759 basehttp 15236 908 "POST /les4/forms/ HTTP/1.1" 200 1572
+INFO 2023-10-09 19:39:18,940 basehttp 15236 16064 "POST /les4/forms/ HTTP/1.1" 200 1572
+INFO 2023-10-09 19:39:43,831 autoreload 15236 19100 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp4\views.py changed, reloading.
+INFO 2023-10-09 19:39:55,944 autoreload 19452 13108 Watching for file changes with StatReloader
+ERROR 2023-10-09 19:40:06,441 log 19452 788 Internal Server Error: /les4/forms/
+Traceback (most recent call last):
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp4\views.py", line 26, in many_fields_form
+    logger.info(f'Получили {form.cleaned_data=}.')
+                            ^^^^^^^^^^^^^^^^^
+AttributeError: 'ManyFieldsForm' object has no attribute 'cleaned_data'
+ERROR 2023-10-09 19:40:06,445 basehttp 19452 788 "POST /les4/forms/ HTTP/1.1" 500 69843
+INFO 2023-10-09 19:40:22,818 autoreload 19452 13108 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp4\views.py changed, reloading.
+INFO 2023-10-09 19:40:23,884 autoreload 16892 19828 Watching for file changes with StatReloader
+INFO 2023-10-09 19:40:28,967 basehttp 16892 13420 "POST /les4/forms/ HTTP/1.1" 200 1572
+INFO 2023-10-09 19:40:31,518 basehttp 16892 13420 "POST /les4/forms/ HTTP/1.1" 200 1572
+INFO 2023-10-09 19:48:58,675 autoreload 16892 19828 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp4\views.py changed, reloading.
+INFO 2023-10-09 19:48:59,802 autoreload 17028 17476 Watching for file changes with StatReloader
+INFO 2023-10-09 19:58:26,246 autoreload 17028 17476 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp4\views.py changed, reloading.
+INFO 2023-10-09 19:58:27,783 autoreload 13492 6380 Watching for file changes with StatReloader
+INFO 2023-10-09 19:58:50,155 autoreload 13492 6380 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp4\views.py changed, reloading.
+INFO 2023-10-09 19:58:51,320 autoreload 5536 7444 Watching for file changes with StatReloader
+INFO 2023-10-09 19:59:44,539 basehttp 5536 16144 "POST /les4/forms/ HTTP/1.1" 200 2251
+INFO 2023-10-09 20:00:33,408 basehttp 5536 16144 "POST /les4/forms/ HTTP/1.1" 200 2213
+INFO 2023-10-09 20:12:24,887 autoreload 5536 7444 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-10-09 20:12:26,268 autoreload 5880 15692 Watching for file changes with StatReloader
+INFO 2023-10-09 20:13:38,904 autoreload 5880 15692 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-10-09 20:13:40,065 autoreload 18788 11656 Watching for file changes with StatReloader
+INFO 2023-10-09 20:18:30,386 autoreload 18788 11656 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp4\models.py changed, reloading.
+INFO 2023-10-09 20:18:31,656 autoreload 20992 9284 Watching for file changes with StatReloader
+INFO 2023-10-09 20:19:38,641 autoreload 20992 9284 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp4\models.py changed, reloading.
+INFO 2023-10-09 20:19:39,707 autoreload 18296 1400 Watching for file changes with StatReloader
+INFO 2023-10-09 20:21:08,326 autoreload 18296 1400 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp4\models.py changed, reloading.
+INFO 2023-10-09 20:21:09,528 autoreload 8216 18252 Watching for file changes with StatReloader
+INFO 2023-10-09 20:21:45,664 autoreload 8216 18252 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myapp4\models.py changed, reloading.
+INFO 2023-10-09 20:21:46,936 autoreload 10072 17312 Watching for file changes with StatReloader
+INFO 2023-10-09 20:34:19,604 autoreload 18848 20876 Watching for file changes with StatReloader
+WARNING 2023-10-09 20:34:46,118 log 18848 2456 Not Found: /user/
+WARNING 2023-10-09 20:34:46,120 basehttp 18848 2456 "GET /user/ HTTP/1.1" 404 2512
+INFO 2023-10-09 20:35:14,343 basehttp 18848 2456 "GET /les4/user/ HTTP/1.1" 200 994
+INFO 2023-10-09 20:36:10,275 basehttp 18848 2456 "GET /les4/user/ HTTP/1.1" 200 933
+INFO 2023-10-09 20:36:57,448 basehttp 18848 2456 "POST /les4/user/ HTTP/1.1" 200 1084
+INFO 2023-10-09 20:37:24,394 basehttp 18848 2456 "POST /les4/user/ HTTP/1.1" 200 1089
+INFO 2023-10-09 20:37:33,713 basehttp 18848 2456 "POST /les4/user/ HTTP/1.1" 200 1089
+INFO 2023-10-09 20:38:01,925 basehttp 18848 2456 "POST /les4/user/ HTTP/1.1" 200 992
