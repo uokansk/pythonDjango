@@ -26,9 +26,15 @@
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files />
+    <open-files>
+      <object connection-id="80ea5020-e47f-4542-adc7-ca0eedce11a8" object-ref="schemas/main/tables/myapp5_product" />
+    </open-files>
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="80ea5020-e47f-4542-adc7-ca0eedce11a8" dataset="main.myapp5_category" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="80ea5020-e47f-4542-adc7-ca0eedce11a8" dataset="main.auth_user" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="80ea5020-e47f-4542-adc7-ca0eedce11a8" dataset="main.myapp5_product" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="80ea5020-e47f-4542-adc7-ca0eedce11a8" dataset="main.myapp4_user" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="8dff97d2-dd51-426a-bdba-3747e9d05dfe" dataset="main.auth_user" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="8dff97d2-dd51-426a-bdba-3747e9d05dfe" dataset="main.auth_user_groups" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="8dff97d2-dd51-426a-bdba-3747e9d05dfe" dataset="main.auth_group" active-filter-id="EMPTY_FILTER" />
@@ -38,10 +44,6 @@
     <filter-actions connection-id="8dff97d2-dd51-426a-bdba-3747e9d05dfe" dataset="main.hw3_app_order" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="8dff97d2-dd51-426a-bdba-3747e9d05dfe" dataset="main.hw3_app_product" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="8dff97d2-dd51-426a-bdba-3747e9d05dfe" dataset="main.hw3_app_client" active-filter-id="EMPTY_FILTER" />
-    <filter-actions connection-id="80ea5020-e47f-4542-adc7-ca0eedce11a8" dataset="main.myapp5_category" active-filter-id="EMPTY_FILTER" />
-    <filter-actions connection-id="80ea5020-e47f-4542-adc7-ca0eedce11a8" dataset="main.auth_user" active-filter-id="EMPTY_FILTER" />
-    <filter-actions connection-id="80ea5020-e47f-4542-adc7-ca0eedce11a8" dataset="main.myapp5_product" active-filter-id="EMPTY_FILTER" />
-    <filter-actions connection-id="80ea5020-e47f-4542-adc7-ca0eedce11a8" dataset="main.myapp4_user" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="df999fd6-54c5-4a44-b220-93310b4f842c" dataset="main.auth_user" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.ExecutionManager">

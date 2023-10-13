@@ -1479,3 +1479,62 @@ INFO 2023-10-13 07:04:57,139 basehttp 12292 21124 "GET /admin/myapp5/product/ HT
 INFO 2023-10-13 07:05:03,676 basehttp 12292 21124 "GET /admin/myapp5/product/2/change/ HTTP/1.1" 200 15619
 INFO 2023-10-13 07:05:03,775 basehttp 12292 17316 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
 INFO 2023-10-13 07:05:03,893 basehttp 12292 21124 "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+INFO 2023-10-13 19:21:24,925 autoreload 8544 5356 Watching for file changes with StatReloader
+INFO 2023-10-13 19:21:41,210 basehttp 8544 19872 "GET / HTTP/1.1" 200 10073
+INFO 2023-10-13 19:21:41,351 basehttp 8544 19872 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2023-10-13 19:21:41,354 basehttp 8544 13124 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 2023-10-13 19:21:41,390 basehttp 8544 7796 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+WARNING 2023-10-13 19:21:41,779 log 8544 7796 Not Found: /favicon.ico
+WARNING 2023-10-13 19:21:41,780 basehttp 8544 7796 "GET /favicon.ico HTTP/1.1" 404 12406
+INFO 2023-10-13 19:22:38,258 basehttp 8544 7796 "GET / HTTP/1.1" 200 10076
+INFO 2023-10-13 19:24:42,173 basehttp 8544 8624 "GET / HTTP/1.1" 200 10076
+INFO 2023-10-13 19:24:42,402 basehttp 8544 836 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 2023-10-13 19:24:42,403 basehttp 8544 8624 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2023-10-13 19:24:42,697 basehttp 8544 836 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+WARNING 2023-10-13 19:24:42,798 log 8544 836 Not Found: /favicon.ico
+WARNING 2023-10-13 19:24:42,803 basehttp 8544 836 "GET /favicon.ico HTTP/1.1" 404 12406
+INFO 2023-10-13 20:38:03,067 autoreload 9276 19596 Watching for file changes with StatReloader
+INFO 2023-10-13 20:38:29,874 basehttp 9276 10824 "GET / HTTP/1.1" 200 10076
+INFO 2023-10-13 20:38:29,988 basehttp 9276 10824 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2023-10-13 20:38:29,988 basehttp 9276 11920 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2023-10-13 20:38:30,175 basehttp 9276 10824 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+WARNING 2023-10-13 20:38:30,404 log 9276 10824 Not Found: /favicon.ico
+WARNING 2023-10-13 20:38:30,405 basehttp 9276 10824 "GET /favicon.ico HTTP/1.1" 404 12406
+INFO 2023-10-13 20:39:31,316 basehttp 9276 1104 "GET / HTTP/1.1" 200 10076
+WARNING 2023-10-13 20:39:31,552 log 9276 1104 Not Found: /favicon.ico
+WARNING 2023-10-13 20:39:31,553 basehttp 9276 1104 "GET /favicon.ico HTTP/1.1" 404 12406
+INFO 2023-10-13 20:39:37,171 basehttp 9276 1104 "GET / HTTP/1.1" 200 10076
+INFO 2023-10-13 21:26:17,001 basehttp 9276 20920 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2023-10-13 21:26:17,005 basehttp 9276 11692 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2023-10-13 21:27:55,725 basehttp 9276 9260 "GET / HTTP/1.1" 200 10076
+INFO 2023-10-13 21:28:00,751 basehttp 9276 9260 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2023-10-13 21:28:01,034 basehttp 9276 9260 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2023-10-13 21:28:01,038 basehttp 9276 19244 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+WARNING 2023-10-13 21:28:01,737 log 9276 19244 Not Found: /favicon.ico
+WARNING 2023-10-13 21:28:01,738 basehttp 9276 19244 "GET /favicon.ico HTTP/1.1" 404 12406
+INFO 2023-10-13 21:39:04,790 basehttp 9276 17244 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2023-10-13 21:58:01,113 autoreload 6924 7128 Watching for file changes with StatReloader
+INFO 2023-10-13 22:00:49,542 basehttp 6924 19676 "GET / HTTP/1.1" 200 10077
+INFO 2023-10-13 22:00:49,793 basehttp 6924 19676 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 2023-10-13 22:00:49,852 basehttp 6924 12624 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2023-10-13 22:00:49,853 basehttp 6924 16988 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2023-10-13 22:01:11,431 basehttp 6924 16988 "GET / HTTP/1.1" 200 10076
+INFO 2023-10-13 22:01:11,519 basehttp 6924 12624 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2023-10-13 22:01:11,521 basehttp 6924 16988 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2023-10-13 22:01:11,557 basehttp 6924 16988 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2023-10-13 22:31:13,441 autoreload 9920 17812 Watching for file changes with StatReloader
+INFO 2023-10-13 22:31:47,503 basehttp 9920 10988 "GET /les6/db HTTP/1.1" 301 0
+INFO 2023-10-13 22:31:47,947 basehttp 9920 7772 "GET /les6/db/ HTTP/1.1" 200 10182
+INFO 2023-10-13 22:31:48,013 basehttp 9920 7772 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2023-10-13 22:31:48,045 basehttp 9920 19072 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2023-10-13 22:31:48,060 basehttp 9920 19072 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2023-10-13 22:34:00,815 basehttp 9920 19072 "GET /les6/view/ HTTP/1.1" 200 10166
+WARNING 2023-10-13 22:35:02,576 log 9920 19072 Not Found: /les6/teplate/
+WARNING 2023-10-13 22:35:02,577 basehttp 9920 19072 "GET /les6/teplate/ HTTP/1.1" 404 12928
+INFO 2023-10-13 22:35:12,997 basehttp 9920 19072 "GET /les6/template/ HTTP/1.1" 200 10150
+INFO 2023-10-13 22:45:21,630 autoreload 9920 17812 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myproject\settings.py changed, reloading.
+INFO 2023-10-13 22:45:22,730 autoreload 12884 10988 Watching for file changes with StatReloader
+INFO 2023-10-13 22:46:39,649 autoreload 12884 10988 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myproject\settings.py changed, reloading.
+INFO 2023-10-13 22:46:40,675 autoreload 21312 11020 Watching for file changes with StatReloader
+INFO 2023-10-13 22:48:29,568 autoreload 21312 11020 C:\Users\kapa-\PycharmProjects\pythonDjango\myproject\myproject\settings.py changed, reloading.
+INFO 2023-10-13 22:48:30,846 autoreload 17632 16476 Watching for file changes with StatReloader
