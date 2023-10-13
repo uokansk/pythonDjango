@@ -24,3 +24,331 @@ WARNING 2023-09-29 19:53:48,453 log 8916 12856 Not Found: /heads
 WARNING 2023-09-29 19:53:48,454 basehttp 8916 12856 "GET /heads HTTP/1.1" 404 2591
 INFO 2023-09-29 19:53:57,570 views 8916 11232 heads page started
 INFO 2023-09-29 19:53:57,572 basehttp 8916 11232 "GET / HTTP/1.1" 200 28
+INFO 2023-10-11 23:00:43,975 autoreload 17620 20636 Watching for file changes with StatReloader
+INFO 2023-10-11 23:01:27,548 autoreload 17620 20636 C:\Users\kapa-\PycharmProjects\pythonDjango\django_S_1\s4app\models.py changed, reloading.
+INFO 2023-10-11 23:01:28,684 autoreload 9868 18660 Watching for file changes with StatReloader
+INFO 2023-10-11 23:02:06,505 autoreload 9868 18660 C:\Users\kapa-\PycharmProjects\pythonDjango\django_S_1\s4app\urls.py changed, reloading.
+INFO 2023-10-11 23:02:07,337 autoreload 9732 8864 Watching for file changes with StatReloader
+INFO 2023-10-11 23:04:34,681 autoreload 8092 6216 Watching for file changes with StatReloader
+INFO 2023-10-11 23:11:08,730 autoreload 8476 14596 Watching for file changes with StatReloader
+INFO 2023-10-11 23:11:25,291 autoreload 8476 14596 C:\Users\kapa-\PycharmProjects\pythonDjango\django_S_1\django_S_1\urls.py changed, reloading.
+INFO 2023-10-11 23:11:26,501 autoreload 20124 16808 Watching for file changes with StatReloader
+INFO 2023-10-11 23:11:38,639 autoreload 20124 16808 C:\Users\kapa-\PycharmProjects\pythonDjango\django_S_1\django_S_1\urls.py changed, reloading.
+INFO 2023-10-11 23:11:39,476 autoreload 17128 21052 Watching for file changes with StatReloader
+INFO 2023-10-11 23:41:25,033 autoreload 17128 21052 C:\Users\kapa-\PycharmProjects\pythonDjango\django_S_1\django_S_1\urls.py changed, reloading.
+INFO 2023-10-11 23:41:26,052 autoreload 19692 16004 Watching for file changes with StatReloader
+WARNING 2023-10-11 23:41:58,588 log 19692 16104 Not Found: /sem4/
+WARNING 2023-10-11 23:41:58,589 basehttp 19692 16104 "GET /sem4/ HTTP/1.1" 404 2772
+WARNING 2023-10-11 23:41:58,969 log 19692 16104 Not Found: /favicon.ico
+WARNING 2023-10-11 23:41:58,970 basehttp 19692 16104 "GET /favicon.ico HTTP/1.1" 404 2714
+WARNING 2023-10-11 23:42:42,224 log 19692 16104 Not Found: /sem4/choise_form
+WARNING 2023-10-11 23:42:42,225 basehttp 19692 16104 "GET /sem4/choise_form HTTP/1.1" 404 2805
+WARNING 2023-10-11 23:42:46,799 log 19692 16104 Not Found: /sem4/choise_form/
+WARNING 2023-10-11 23:42:46,800 basehttp 19692 16104 "GET /sem4/choise_form/ HTTP/1.1" 404 2808
+WARNING 2023-10-11 23:43:18,160 log 19692 16104 Not Found: /sem4/user/add/choise_form/
+WARNING 2023-10-11 23:43:18,161 basehttp 19692 16104 "GET /sem4/user/add/choise_form/ HTTP/1.1" 404 2835
+ERROR 2023-10-11 23:43:23,152 log 19692 16104 Internal Server Error: /sem4/user/add/
+Traceback (most recent call last):
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base_temp.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\django_S_1\s4app\views.py", line 38, in choice_form
+    return render(request, 's4app/choice_form.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base_temp.html
+ERROR 2023-10-11 23:43:23,185 basehttp 19692 16104 "GET /sem4/user/add/ HTTP/1.1" 500 133213
+WARNING 2023-10-11 23:43:37,269 log 19692 16104 Not Found: /sem4/choice_form/
+WARNING 2023-10-11 23:43:37,270 basehttp 19692 16104 "GET /sem4/choice_form/ HTTP/1.1" 404 2808
+WARNING 2023-10-11 23:43:42,987 log 19692 16104 Not Found: /sem4/choice_form
+WARNING 2023-10-11 23:43:42,988 basehttp 19692 16104 "GET /sem4/choice_form HTTP/1.1" 404 2805
+WARNING 2023-10-11 23:43:48,754 log 19692 16104 Not Found: /sem4/
+WARNING 2023-10-11 23:43:48,755 basehttp 19692 16104 "GET /sem4/ HTTP/1.1" 404 2772
+WARNING 2023-10-11 23:43:54,701 log 19692 16104 Not Found: /sem4
+WARNING 2023-10-11 23:43:54,702 basehttp 19692 16104 "GET /sem4 HTTP/1.1" 404 2693
+INFO 2023-10-11 23:49:03,003 autoreload 19692 16004 C:\Users\kapa-\PycharmProjects\pythonDjango\django_S_1\s4app\urls.py changed, reloading.
+INFO 2023-10-11 23:49:04,221 autoreload 16592 18792 Watching for file changes with StatReloader
+INFO 2023-10-11 23:50:55,902 autoreload 16592 18792 C:\Users\kapa-\PycharmProjects\pythonDjango\django_S_1\s4app\urls.py changed, reloading.
+INFO 2023-10-11 23:50:56,714 autoreload 16908 13888 Watching for file changes with StatReloader
+ERROR 2023-10-11 23:51:19,209 log 16908 14136 Internal Server Error: /sem4/choice/
+Traceback (most recent call last):
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base_temp.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\django_S_1\s4app\views.py", line 38, in choice_form
+    return render(request, 's4app/choice_form.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base_temp.html
+ERROR 2023-10-11 23:51:19,220 basehttp 16908 14136 "GET /sem4/choice/ HTTP/1.1" 500 133185
+ERROR 2023-10-11 23:52:31,611 log 16908 14136 Internal Server Error: /sem4/choice/
+Traceback (most recent call last):
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\django_S_1\s4app\views.py", line 38, in choice_form
+    return render(request, 's4app/choice_form.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2023-10-11 23:52:31,625 basehttp 16908 14136 "GET /sem4/choice/ HTTP/1.1" 500 133172
+INFO 2023-10-11 23:55:52,283 autoreload 16336 10644 Watching for file changes with StatReloader
+INFO 2023-10-11 23:56:02,602 basehttp 16336 12916 "GET /sem4/choice HTTP/1.1" 301 0
+ERROR 2023-10-11 23:56:02,693 log 16336 9004 Internal Server Error: /sem4/choice/
+Traceback (most recent call last):
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\django_S_1\s4app\views.py", line 38, in choice_form
+    return render(request, 's4app/choice_form.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2023-10-11 23:56:02,707 basehttp 16336 9004 "GET /sem4/choice/ HTTP/1.1" 500 133035
+INFO 2023-10-11 23:58:00,528 autoreload 16336 10644 C:\Users\kapa-\PycharmProjects\pythonDjango\django_S_1\django_S_1\settings.py changed, reloading.
+INFO 2023-10-11 23:58:01,434 autoreload 8900 10484 Watching for file changes with StatReloader
+INFO 2023-10-11 23:58:07,747 basehttp 8900 3852 "GET /sem4/choice/ HTTP/1.1" 200 838
+ERROR 2023-10-11 23:58:13,875 log 8900 3852 Internal Server Error: /sem4/choice/
+Traceback (most recent call last):
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base_temp.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\django_S_1\s4app\views.py", line 32, in choice_form
+    return dice(request, quant)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\django_S_1\s4app\views.py", line 66, in dice
+    return render(request, 'playya.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\kapa-\PycharmProjects\pythonDjango\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base_temp.html
+ERROR 2023-10-11 23:58:13,886 basehttp 8900 3852 "POST /sem4/choice/ HTTP/1.1" 500 137742
